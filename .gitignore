@@ -1,0 +1,13 @@
+
+# pixi environments
+.pixi
+*.egg-info
+.DS_Store
+
+# Axera
+RAOD2Axera.*
+
+# folder
+/clustering_results
+/cluster-react
+/.vscode

@@ -1,0 +1,23 @@
+[project]
+authors = ["Goooyi <gaaoyi@gmail.com>"]
+channels = ["conda-forge"]
+name = "Work-pixi"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.9.*"
+numpy = "1.24.*"
+scikit-learn = ">=1.6.1,<2"
+tqdm = ">=4.67.1,<5"
+pyimagej = ">=1.6.0,<2"
+colour = ">=0.1.5,<0.2"
+matplotlib = ">=3.9.4,<4"
+colour-demosaicing = ">=0.2.5,<0.3"
+ipykernel = ">=6.29.5,<7"
+scipy = ">=1.13.1,<2"
+opencv = ">=4.11.0,<5"
+seaborn = ">=0.13.2,<0.14"
+pandas = ">=2.2.3,<3"
