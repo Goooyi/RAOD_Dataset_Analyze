@@ -2,6 +2,9 @@
 
 [RAOD](https://github.com/huawei-noah/noah-research/tree/master/RAOD) dataset does not provide meta data to visualize the raw dataset, this repo aims to provide simple scripts to do that to help
 
+1. simple visualization for eye-balling the the dataset.
+2. Clustering RAOD dataset, so that ISP pipeline can be applied for further ablation study
+
 ## Setup
 
 Install `pixi` then
@@ -9,9 +12,6 @@ Install `pixi` then
 ```bash
 pixi add
 ```
-
-1. simple visualization for eye-balling the the dataset.
-2. Clustering RAOD dataset, so that ISP pipeline can be applied for further ablation study
 
 ## Raw to Image Visualization
 
